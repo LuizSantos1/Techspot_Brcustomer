@@ -10,7 +10,7 @@ require(['jquery', 'inputMask', 'pessoaFisica','pessoaJuridica'], function($, in
                 pJuridica : '2',
             };
 
-            $('#custom_telephone').inputmask("(99) 9999-9999");
+            $('#custom_telephone').inputmask("(99) 99999-9999");
             $('#custom_cellphone').inputmask("(99) 99999-9999");
 
             $('#legal_type').on('change',function(){
